@@ -10,6 +10,12 @@ import { AnalizaComponent } from './pages/analiza/analiza.component';
 import { ClientiComponent } from './pages/clienti/clienti.component';
 import { PlanuriComponent } from './pages/planuri/planuri.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+//Material Angular
+import {MatCardModule} from '@angular/material/card';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +26,15 @@ import { ContactComponent } from './pages/contact/contact.component';
     AnalizaComponent,
     ClientiComponent,
     PlanuriComponent,
-    ContactComponent
+    ContactComponent,
+    NavbarComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

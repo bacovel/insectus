@@ -1,100 +1,42 @@
 
 
-<div className="d-flex flex-column mx-5 mt-5 align-items-center">
-    <div className="text-center mx-5" data-aos-duration="1500" data-aos = "fade-up" data-aos-once="true">
+<div class="content">
+    <div class="header" data-aos-duration="1500" data-aos = "fade-up"  data-aos-once="true">
         <h2>Cine suntem?</h2>
         <p>Suntem studenți ai Universității ,,Ovidius" din Constanța care doresc să propună o soluție cu uz în multiple domenii.</p>
     </div>
 
-    <div className="echipa d-flex flex-column mt-5 align-items-center">
-        <div className="d-flex gap-5">
-
-            <div className="card">
-                <img className="card-img-top" src={mentor} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Gurau Marian Andrei</h4>
-                    <p className="card-text">S.L. dr. ing.</p>
-                </div>
-            </div>
-
-            <div className="card">
-                <img className="card-img-top" src={mentor2} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Petrea Cristian</h4>
-                    <p className="card-text">Director general Ing.</p>
-                </div>
-            </div>
-
-
+    <div class="echipa d-flex flex-column mt-5 align-items-center" >
+        <div class="row justify-content-center" data-aos-duration="1500" data-aos = "fade-up">
+            <app-card  imageSrc="../../../assets/mentor.png" name="Gurau Marian Andrei" description="S.L. dr. ing."></app-card>
+            <app-card  imageSrc="../../../assets/mentor2.jpeg" name="Petrea Cristian" description="Director general Ing."></app-card>
         </div>
-
-        <div className="d-flex align-items-center gap-5 mt-5">
-            <div className="card">
-                <img className="card-img-top" src={andrei} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Stefan ceva</h4>
-                    <p className="card-text">Student Facultatea de Matematica si Informatica</p>
-                </div>
-            </div>
-
-            <div className="card">
-                <img className="card-img-top" src={andrei} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Panait Andrei</h4>
-                    <p className="card-text">Student Facultatea de Matematica si Informatica</p>
-                </div>
-            </div>
-
-            <div className="card">
-                <img className="card-img-top" src={alin} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Otetaru Alin-Daniel</h4>
-                    <p className="card-text">Student Facultatea de Stiinte Economice Management</p>
-                </div>
-            </div>
-
+        <div class="row justify-content-center" data-aos-duration="1500" data-aos = "fade-up">
+            <app-card  imageSrc="../../../assets/Andrei Panait.jpeg" name="Stefan Ceva" description="Student Facultatea de Matematica si Informatica"></app-card>
+            <app-card  imageSrc="../../../assets/Andrei Panait.jpeg" name="Panait Andrei" description="Student Facultatea de Matematica si Informatica"></app-card>
+            <app-card  imageSrc="../../../assets/Alin.jpeg" name="Otetaru Alin-Daniel" description="Student Facultatea de Stiinte Economice Management"></app-card>
         </div>
-        <div className="d-flex align-items-center gap-5 mt-5">
-
-            <div className="card">
-                <img className="card-img-top" src={andreea} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Bordianu Andreea</h4>
-                    <p className="card-text">Studenta Facultatea de Stiinte Economice</p>
-                </div>
-            </div>
-
-            <div className="card">
-                <img className="card-img-top" src={fane} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Tufan Alexandru Stefan</h4>
-                    <p className="card-text">Student Facultatea de Drept si Stiinte Administrative</p>
-                </div>
-            </div>
-
-            <div className="card">
-                <img className="card-img-top" src={elena} alt=""/>
-                <div className="card-body">
-                    <h4 className="card-text">Urse Elena</h4>
-                    <p className="card-text">Studenta Facultatea de Drept si Stiinte Administrative</p>
-                </div>
-            </div>
+        <div class="row justify-content-center" data-aos-duration="1500" data-aos = "fade-up" >
+            <app-card  imageSrc="../../../assets/andreea.jpeg" name="Bordianu Andreea" description="Studenta Facultatea de Stiinte Economice"></app-card>
+            <app-card  imageSrc="../../../assets/fane.png" name="Tufan Alexandru Stefan" description="Student Facultatea de Drept si Stiinte Administrative"></app-card>
+            <app-card  imageSrc="../../../assets/elena.jpeg" name="Urse Elena" description="Studenta Facultatea de Drept si Stiinte Administrative"></app-card>     
         </div>
     </div>
 </div>
 
 
-<div className="d-flex flex-column align-items-center align">
+<div class="d-flex flex-column align-items-center align">
     
-    <div className="d-flex flex-column viziune mt-5" >
-        <h2 data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000" data-aos = "fade-right">We are insectus!</h2>
-        <p data-aos-anchor-placement="bottom-bottom" data-aos-duration="2500" data-aos = "fade-right">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+    <div class="d-flex flex-column viziune mt-5" >
+        <h2  >We are insectus!</h2>
+        <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
     </div>
 
-    <div className="d-flex mt-5">
-        <video className="rounded vid" autoPlay="" controls>
+    <div class="d-flex mt-5">
+        <video class="rounded vid" autoPlay="" controls>
             <source src={video}/>
         </video>
     </div>
 
 </div>
+
