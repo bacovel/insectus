@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,6 +18,13 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+//import { MyLineChartComponent } from './components/footer/footer.component';
+
+import { NgChartsModule } from 'ng2-charts';
+import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
+import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
+import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,13 +37,17 @@ import { FooterComponent } from './components/footer/footer.component';
     ContactComponent,
     NavbarComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    BarChartComponent,
+    PieChartComponent,
+    LineChartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule
+    MatCardModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
