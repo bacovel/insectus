@@ -16,7 +16,7 @@ export class AnalizaComponent {
           datasets: [
             {
               data: [ 120, 150, 180, 250, 320, 420, 500, 520, 510, 510, 500, 520],
-              label: 'Series A',
+              label: 'Productie (tone)',
               backgroundColor: 'rgba(148,159,177,0.2)',
               borderColor: 'rgba(148,159,177,1)',
               pointBackgroundColor: 'rgba(148,159,177,1)',
