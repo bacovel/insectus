@@ -17,10 +17,23 @@ h1{
 }
 
 .red{
+    width: 380px;
     border: 2px solid red;
+    border-radius: 5px;
     padding: 1em;
+    margin-left: 2em;
+    float: right;
 }
-  
+
+.right{
+  width: 40em;
+}
+p{
+  font-size: 10px;
+}
+ul li{
+  font-size: 14px;
+}
   /* ================ The Timeline ================ */
   
   .timeline {

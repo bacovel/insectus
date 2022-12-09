@@ -10,6 +10,7 @@ import { AnalizaComponent } from './pages/analiza/analiza.component';
 import { ClientiComponent } from './pages/clienti/clienti.component';
 import { PlanuriComponent } from './pages/planuri/planuri.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { DovadaComponent } from './pages/dovada/dovada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 //Material Angular
@@ -24,6 +25,7 @@ import { NgChartsModule } from 'ng2-charts';
 import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
 import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
 import { LineChartComponent } from './components/charts/line-chart/line-chart.component';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { LineChartComponent } from './components/charts/line-chart/line-chart.co
     FooterComponent,
     BarChartComponent,
     PieChartComponent,
-    LineChartComponent
+    LineChartComponent,
+    DovadaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { DovadaComponent } from './pages/dovada/dovada.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PlanuriComponent } from './pages/planuri/planuri.component';
 import { ClientiComponent } from './pages/clienti/clienti.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'clienti', component: ClientiComponent },
   { path: 'planuri', component: PlanuriComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'dovada', component: DovadaComponent}
 ];
 
 @NgModule({

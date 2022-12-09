@@ -1,2 +1,234 @@
-<p>analiza works!</p>
-<app-line-chart [lineChartData]="charts.get('Input1')?.chartData!"></app-line-chart>
+<div class="content">
+    <table class="costuri">
+        <h1>Costuri Start-Up</h1>
+        <tr>
+          <th>Denumire</th>
+          <th>Cantitate</th>
+          <th>Pret EURO</th>
+        </tr>
+        <tr>
+          <td>Teren</td>
+          <td>1500mp</td>
+          <td>Capital subscris varsat</td>
+        </tr>
+        <tr>
+          <td>Constructie hala</td>
+          <td>1400mp</td>
+          <td>155512</td>
+        </tr>
+        
+        <tr>
+            <td>Custi crestere insecte</td>
+            <td>400</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>Sistem tavi si suporturi crestere larve</td>
+            <td>400</td>
+            <td>60000</td>
+        </tr>
+        <tr>
+            <td>Sistem automat hranire insecte</td>
+            <td>4</td>
+            <td>280000</td>
+        </tr>
+        <tr>
+            <td>Sistem colectare oua</td>
+            <td>4</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>Separator sexe in baza marimii</td>
+            <td>4</td>
+            <td>20000</td>
+        </tr>
+        <tr>
+            <td>Colector insecte</td>
+            <td>4</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>Autoutilitare</td>
+            <td>10</td>
+            <td>40000</td>
+        </tr>
+        <tr>
+            <td>Mori fine</td>
+            <td>4</td>
+            <td>60000</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>TOTAL</b></td>
+            <td><b>699512</b></td>
+          </tr>
+      </table>
+
+      <table class="constante">
+        <h1>Costuri constante</h1>
+        <tr>
+            <td>Mentenanta echipamente</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td>Mentenanta utilaje</td>
+            <td>15000</td>
+        </tr>
+        <tr>
+            <td>Utilitati</td>
+            <td>70000</td>
+        </tr>
+        <tr>
+            <td>Consumabile</td>
+            <td>50000</td>
+        </tr>
+        <tr>
+            <td>Salarii</td>
+            <td>200000</td>
+        </tr>
+        <tr>
+            <td><b>Total</b></td>
+            <td><b>345000</b></td>
+        </tr>
+      </table>
+      
+      
+      <table class="tg">
+        <h1>Costuri insecte in diferite forme</h1>
+
+        <tbody>
+            <tr>
+                <th class="tg-7zrl">H.   Illucens</th>
+                <th class="tg-7zrl" colspan="3">Pret/tona  EUR</th>
+                <th class="tg-7zrl"> </th>
+            </tr>
+          <tr>
+            <td class="tg-7zrl">Tara</td>
+            <td class="tg-7zrl">Uscat </td>
+            <td class="tg-7zrl">Proaspat</td>
+            <td class="tg-7zrl">Faina</td>
+            <td class="tg-7zrl">Furaj</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Germania</td>
+            <td class="tg-7zrl">6500</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Kenia</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">464</td>
+            <td class="tg-7zrl">79</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Spania</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">2273</td>
+            <td class="tg-7zrl">303</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Italia</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">2500</td>
+            <td class="tg-7zrl">200</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Egipt</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">427</td>
+            <td class="tg-7zrl">310</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Olanda</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">3000</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">270</td>
+          </tr>
+          <tr>
+            <th class="tg-7zrl">A.   Domesticus</th>
+            <th class="tg-7zrl" colspan="3">Pret/tona  EUR</th>
+            <th class="tg-7zrl"> </th>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Tara</td>
+            <td class="tg-7zrl">Uscat </td>
+            <td class="tg-7zrl">Proaspat</td>
+            <td class="tg-7zrl">Faina</td>
+            <td class="tg-7zrl">Furaj</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">SUA</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">84590</td>
+            <td class="tg-7zrl">1100</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Canada</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">18182</td>
+            <td class="tg-7zrl">600</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Thailanda</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">3500</td>
+            <td class="tg-7zrl">26363</td>
+            <td class="tg-7zrl">315</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Olanda</td>
+            <td class="tg-7zrl">200000</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">216</td>
+          </tr>
+          <tr>
+            <th class="tg-7zrl">T. Molitor</th>
+            <th class="tg-7zrl" colspan="3">Pret/tona  EUR</th>
+            <th class="tg-7zrl"> </th>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Tara</td>
+            <td class="tg-7zrl">Uscat </td>
+            <td class="tg-7zrl">Proaspat</td>
+            <td class="tg-7zrl">Faina</td>
+            <td class="tg-7zrl">Furaj</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Italia</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">17000</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">400</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">China</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">7272</td>
+            <td class="tg-7zrl">357</td>
+          </tr>
+          <tr>
+            <td class="tg-7zrl">Olanda</td>
+            <td class="tg-7zrl">32330</td>
+            <td class="tg-7zrl">15800</td>
+            <td class="tg-7zrl"> </td>
+            <td class="tg-7zrl">217</td>
+          </tr>
+        </tbody>
+        </table>
+     <div class="chart">
+        <h1 class="text-center">Previziuni productie</h1>
+        <app-line-chart class="linechart" [lineChartData]="charts.get('Input1')?.chartData!"></app-line-chart>
+     </div>   
+
+</div>
+ 
